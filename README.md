@@ -1,9 +1,6 @@
 # ClientesInfo
 
-Angular 6
-    - Angular Material
-    - Lazy Loading
-    - scss
+Angular 6 utilizando: Angular Material, Lazy Loading configurado e scss
 
 ## Development server
 
