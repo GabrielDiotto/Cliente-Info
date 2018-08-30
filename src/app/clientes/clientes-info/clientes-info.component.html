@@ -1,0 +1,11 @@
+<mat-grid-list cols="3" rowHeight="100px" *ngFor="let cliente of clientes">
+  <mat-grid-tile
+      [colspan]="3"
+      [rowspan]="1"
+      [style.background]="lightgreen">
+      <b>Nome:</b> {{cliente.nome | titlecase }}
+      <b>Data de Nascimento:</b>{{cliente.dataNascimento | date:'dd/MM/yyyy HH:mm'}}
+      <b>Salário:</b> {{cliente.salario | currency:'BRL':true:'1.2-2'}}
+  </mat-grid-tile>
+  <mat-divider></mat-divider>
+</mat-grid-list>
